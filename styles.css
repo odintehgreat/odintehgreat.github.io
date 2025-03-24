@@ -1,0 +1,37 @@
+/* Apply styles to all tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Style table headers */
+th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: 1px solid #555;
+}
+
+/* Style table cells */
+td {
+    padding: 10px;
+    border: 1px solid #555;
+    font-family: 'Times New Roman';
+}
+
+/* Add alternating row colors */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect */
+tr:hover {
+    background-color: #ddd;
+}
+
+code {
+    font-family: 'Times New Roman';
+}
